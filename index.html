@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<link href="css/css.css"
+		rel="stylesheet">
+	<link href="css/css_2.css"
+		rel="stylesheet">
+
+	<meta property="og:url"
+		content="https://www.inesadam.com">
+	<meta property="og:title"
+		content="Inés Adam">
+	<meta property="og:description"
+		content="Official Website of Inés Adam">
+	<meta property="og:image"
+		content="images/ines.png">
+
+	<script src="js/1986a0c9fd.js"
+		crossorigin="anonymous"></script>
+	<script
+		src="js/jquery.min.js"></script>
+	<script
+		src="js/imagesloaded.pkgd.min.js"></script>
+	<link rel="stylesheet"
+		href="css/jquery.fancybox.min.css">
+	<script
+		src="js/jquery.fancybox.min.js"></script>
+	<script
+		src="js/jquery.cycle2.min.js"></script>
+	<script
+		src="js/jquery.cycle2.carousel.min.js"></script>
+	<script
+		src="js/jquery.cycle2.center.min.js"></script>
+
+	<link rel="stylesheet"
+		type="text/css"
+		href="css/style.css">
+	<meta name="robots"
+		content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+	<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+	<script data-cfasync="false"
+		data-pagespeed-no-defer>//<![CDATA[
+			var gtm4wp_datalayer_name = "dataLayer";
+			var dataLayer = dataLayer || [];
+//]]>
+		</script>
+
+	<style type="text/css">
+		img.wp-smiley,
+		img.emoji {
+			display: inline !important;
+			border: none !important;
+			box-shadow: none !important;
+			height: 1em !important;
+			width: 1em !important;
+			margin: 0 .07em !important;
+			vertical-align: -0.1em !important;
+			background: none !important;
+			padding: 0 !important;
+		}
+	</style>
+	<link rel="stylesheet"
+		id="sb_instagram_styles-css"
+		href="css/sbi-styles.min.css"
+		type="text/css" media="all">
+	<link rel="stylesheet"
+		id="wp-block-library-css"
+		href="css/style.min.css"
+		type="text/css" media="all">
+	<script type="text/javascript"
+		src="js/jquery.min_1.js"
+		id="jquery-core-js"></script>
+	<script type="text/javascript"
+		src="js/jquery-migrate.min.js"
+		id="jquery-migrate-js"></script>
+
+	<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+	<script data-cfasync="false"
+		data-pagespeed-no-defer>//<![CDATA[
+			var dataLayer_content = { "pagePostType": "frontpage" };
+			dataLayer.push(dataLayer_content);//]]>
+		</script>
+	<script data-cfasync="false">//<![CDATA[
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || []; w[l].push({
+				'gtm.start':
+					new Date().getTime(), event: 'gtm.js'
+			}); var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+					'//www.googletagmanager.com/gtm.' + 'js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-WHN48GN');//]]>
+	</script>
+	<!-- End Google Tag Manager -->
+	<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+	<style type="text/css">
+		.recentcomments a {
+			display: inline !important;
+			padding: 0 !important;
+			margin: 0 !important;
+		}
+	</style>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$(window).scroll(function () {
+				if ($(window).scrollTop() > $(window).height() - 80) {
+					$('ul#nav').addClass('Two');
+				}
+				else {
+					$('ul#nav').removeClass('Two');
+				}
+			});
+		});
+		$(document).on('click', 'a[href^="#"]', function (e) {
+			var id = $(this).attr('href');
+			var $id = $(id);
+			if ($id.length === 0) {
+				return;
+			}
+			e.preventDefault();
+			var pos = $id.offset().top - 49;
+			$('body, html').animate({ scrollTop: pos });
+		});
+		$(document).ready(function () {
+			$(this).parents().find('a').removeClass('active');
+			$(this).addClass('active');
+		});
+		$(window).on('scroll', function () {
+			$('section').each(function () {
+				if ($(window).scrollTop() >= $(window).height() - 80) {
+					if ($(window).scrollTop() >= $(this).position().top - 80) {
+						var id = $(this).attr('id');
+						$('ul#nav li a').removeClass('active');
+						$('ul#nav li a[href="#' + id + '"]').addClass('active');
+						$('ul#nav').attr('class', ('Two' + ' ' + id));
+					}
+				}
+				else {
+
+					$('ul#nav').removeClass('Two');
+				}
+			});
+		});
+
+		function myFunction() {
+			var x = document.getElementById("mobileNav");
+			$(".icon i").toggleClass('fa-bars fa-times');
+			if (x.className === "menu") {
+				x.className += " responsive";
+				$(".menu").slideDown("slow", function () { });
+			} else {
+				x.className = "menu";
+				$(".menu").slideUp("slow", function () { });
+			}
+		}
+	</script>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#container').imagesLoaded({ background: true }, function () {
+				$('#loader-wrapper').fadeOut(250);
+				$('.pageLoader').css('opacity', '1');
+				$('.pageLoader2').css("transform", "translateY(0)");
+				$('.pageSection').css('opacity', '1');
+			});
+		});
+	</script>
+
+</head>
+
+<body data-rsssl="1" class="home blog">
+
+	<div id="loader-wrapper">
+		<i
+			class="fas fa-circle-notch fa-spin"></i>
+	</div>
+
+	<div id="container">
+		<section id="landing">
+			<div
+				id="mobileNavContainer">
+				<a href="javascript:void(0);"
+					class="icon"
+					onclick="myFunction()"><i
+						class="fas fa-bars"></i></a>
+				<div>
+					<a
+						href="https://open.spotify.com/artist/3vYfBMlTptC4i3vx6crWx0?si=dJ0fQSPgTxe30NV9GX07Dw&dl_branch=1"><i
+							class="fab fa-spotify"></i></a>
+					<a
+						href="https://www.youtube.com/c/In%C3%A9sAdam"><i
+							class="fab fa-youtube"></i></a>
+					<a
+						href="https://www.instagram.com/inuadam/"><i
+							class="fab fa-instagram"></i></a>
+					<a
+						href="https://www.twitch.tv/inudamn">
+						<i
+							class="fab fa-twitch"></i></a>
+					<a
+						href="https://soundcloud.com/inesadam"><i
+							class="fab fa-soundcloud"></i></a>
+
+				</div>
+			</div>
+			<ul id="mobileNav"
+				class="menu">
+				<li><a href="#music"
+						onclick="myFunction()">Music</a>
+				</li>
+				<li><a href="#bio"
+						onclick="myFunction()">Bio</a>
+				</li>
+			</ul>
+			<img src="images/InesCrop.png"
+				id="albumArtwork"
+				class="pageLoader">
+			<div id="landingLinks"
+				class="pageLoader">
+
+				<div class="socials">
+					<a
+						href="https://open.spotify.com/artist/3vYfBMlTptC4i3vx6crWx0?si=dJ0fQSPgTxe30NV9GX07Dw&dl_branch=1"><i
+							class="fab fa-spotify"></i></a>
+					<a
+						href="https://www.youtube.com/c/In%C3%A9sAdam"><i
+							class="fab fa-youtube"></i></a>
+					<a
+						href="https://www.instagram.com/inuadam/"><i
+							class="fab fa-instagram"></i></a>
+					<a
+						href="https://www.twitch.tv/inudamn">
+						<i
+							class="fab fa-twitch"></i></a>
+					<a
+						href="https://soundcloud.com/inesadam"><i
+							class="fab fa-soundcloud"></i></a>
+
+
+				</div>
+			</div>
+		</section>
+		<ul id="nav"
+			class="pageLoader2">
+			<li><a href="#video"
+					class="video">Music</a>
+			</li>
+			<li><a href="#bio">Bio</a>
+			</li>
+
+		</ul>
+		<section id="video"
+			class="pageSection">
+			<img class="imgTitle"
+				src="images/TitleMusic.svg">
+			<div
+				class="cycleNext videoNav">
+				<i
+					class="fas fa-angle-right"></i>
+			</div>
+			<div
+				class="cyclePrev videoNav">
+				<i
+					class="fas fa-angle-left"></i>
+			</div>
+			<div class="cycle-slideshow"
+				data-cycle-fx="scrollHorz"
+				data-cycle-timeout="0"
+				data-cycle-prev=".cyclePrev.videoNav"
+				data-cycle-next=".cycleNext.videoNav"
+				data-cycle-slides="> div.youTube"
+				data-cycle-pause-on-hover="true">
+				
+				<div class=youTube>
+					<iframe class="spotify"
+						src="https://open.spotify.com/embed/track/6jeQ3e1oukibBUtWs8xw7d?theme=0"
+					
+						frameBorder="0"
+						 style=" object-fit: cover;"
+						allow="encrypted-media"></iframe>
+				</div>
+				<div class="youTube">
+					<video
+						onclick="this.paused ? this.play() : this.pause();"
+						src="videos/12_51- The Strokes (cover).mp4"
+						width=100%
+						height=(width*.5625)
+						class="video">
+					</video>
+					<h2>12:51</h2>
+					<p>The Strokes</p>
+				</div>
+								<div class="youTube">
+									<video
+										onclick="this.paused ? this.play() : this.pause();"
+										src="videos/Y si no fuera- Chico Trujillo (cover).mp4"
+										width=100% height=(width*.5625)
+										class="video">
+									</video>
+									<h2>Y si no fuera</h2>
+									<p>Chico Trujillo</p>
+								</div>
+				<div class="youTube">
+					<video
+						onclick="this.paused ? this.play() : this.pause();"
+						src="videos/Red Light- The Strokes (cover).mp4"
+						width=100%
+						height=(width*.5625)
+						class="video">
+					</video>
+					<h2>Red Light</h2>
+					<p>The Strokes</p>
+				</div>
+				<div class="youTube">
+					<video
+						onclick="this.paused ? this.play() : this.pause();"
+						src="videos/Automatic Stop- The Strokes (cover).mp4"
+						width=100%
+						height=(width*.5625)
+						class="video">
+					</video>
+					<h2>Automatic Stop
+					</h2>
+					<p>The Strokes</p>
+				</div>
+				<div class="youTube">
+					<video
+						onclick="this.paused ? this.play() : this.pause();"
+						src="videos/Alone, Together - The Strokes (cover).mp4"
+						width=100% height=(width*.5625)
+						class="video">
+					</video>
+					<h2>Alone, Together
+					</h2>
+					<p>The Strokes</p>
+				</div>
+				<div class="youTube">
+					<video
+						onclick="this.paused ? this.play() : this.pause();"
+						src="videos/Evening Sun- The Strokes (cover).mp4"
+						width=100%
+						height=(width*.5625)
+						class="video">
+					</video>
+					<h2>Evening Sun</h2>
+					<p>The Strokes</p>
+				</div>
+				<div class="youTube">
+					<video
+						onclick="this.paused ? this.play() : this.pause();"
+						src="videos/The Gardener - The Tallest Man On Earth (cover).mp4"
+						width=100%
+						height=(width*.5625)
+						class="video">
+					</video>
+					<h2>The Gardener
+					</h2>
+					<p>The Tallest Man
+						On Earth</p>
+				</div>
+
+			</div>
+		</section>
+
+		<section id="bio"
+			class="pageSection">
+			<img class="imgTitle"
+				src="images/TitleBio.svg">
+			<div class="excerpt">
+				<p>Inés, 22 / Buenos Aires, Argentina
+				</p>
+
+
+			
+			</div>
+
+
+
+			</div>
+		</section>
+
+
+
+		<section id="photos" style="overflow: hidden; display: inline-block; justify-content:space-around">
+			<img class="imgTitle"
+				src="images/TitlePhotos.svg">
+			
+
+<a href="https://www.instagram.com/p/CUAjd00glkg/">
+	<image width=600px height=600px style="display:inline-block"
+		src="images/insta/242116905_600884664424819_585945223916586404_n.jpg">
+	</image>
+	</a>
+	<a href="https://www.instagram.com/p/CP3QbtEAPpg">
+		<image width=600px height=600px style="display:inline-block"
+			src="images/insta/197778642_544881513174955_3396404423342983506_n.jpg">
+		</image>
+	</a>
+<a href="https://www.instagram.com/p/Bm1lkcJBgpO/">
+	<image width=600px height=600px  style="display:inline-block; object-fit: cover;"
+		src="images/insta/38999761_1089024081277042_7083316964289937408_n.jpg">
+	</image>
+	<a
+		href="https://www.instagram.com/p/B6B5zKUluYO">
+		<image width=600px height=600px
+			style="display:inline-block; object-fit: cover;"
+			src=/images/insta/75595211_868151956933147_4749951171777501222_n.jpg>
+		</image>
+</a>
+			</section>
+		<section id="footer">
+
+
+
+
+			<div class=socials>
+				<a
+					href="https://open.spotify.com/artist/3vYfBMlTptC4i3vx6crWx0?si=dJ0fQSPgTxe30NV9GX07Dw&dl_branch=1"><i
+						class="fab fa-spotify"></i></a>
+				<a
+					href="https://www.youtube.com/c/In%C3%A9sAdam"><i
+						class="fab fa-youtube"></i></a>
+				<a
+					href="https://www.instagram.com/inuadam/"><i
+						class="fab fa-instagram"></i></a>
+				<a
+					href="https://www.twitch.tv/inudamn">
+					<i
+						class="fab fa-twitch"></i></a>
+				<a
+					href="https://soundcloud.com/inesadam"><i
+						class="fab fa-soundcloud"></i></a>
+			</div>
+
+			<div class="credit">
+				Website by <a
+					href="https://seanbrogan.xyz"
+					target="_blank">Sean
+					Brogan</a>
+			</div>
+		</section>
+
+	</div>
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="ns.html"
+			height="0" width="0"
+			style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<!-- Instagram Feed JS -->
+	<script type="text/javascript">
+	window.onresize = resize;
+	window.onload = resize;
+	function resize() {
+		resizeSpotify();	
+		}
+		function resizeSpotify(){
+	function parentWidth(elem) {
+			return elem.parentElement.clientWidth;
+		}	
+		function parentHeight(elem) {
+			return elem.parentElement.clientHeight;
+		}
+	var spotify = document.getElementsByClassName('spotify');
+
+	for (var elem of spotify){
+		
+			elem.setAttribute('width',parentWidth(elem))
+			elem.setAttribute('height', parentHeight(elem))
+			
+		}
+	}
+	
+	
+	</script>
+	<link rel="stylesheet"
+		id="hustle_icons-css"
+		href="css/hustle-icons.min.css"
+		type="text/css" media="all">
+	<link rel="stylesheet"
+		id="hustle_global-css"
+		href="css/hustle-global.min.css"
+		type="text/css" media="all">
+	<link rel="stylesheet"
+		id="hustle_optin-css"
+		href="css/hustle-optin.min.css"
+		type="text/css" media="all">
+	<link rel="stylesheet"
+		id="hustle_popup-css"
+		href="css/hustle-popup.min.css"
+		type="text/css" media="all">
+	<link rel="stylesheet"
+		id="hustle-fonts-css"
+		href="css/css_1.css"
+		type="text/css" media="all">
+	<script type="text/javascript"
+		src="js/core.min.js"
+		id="jquery-ui-core-js"></script>
+	<script type="text/javascript"
+		src="js/datepicker.min.js"
+		id="jquery-ui-datepicker-js"></script>
+	<script type="text/javascript"
+		id="jquery-ui-datepicker-js-after">
+			jQuery(document).ready(function (jQuery) { jQuery.datepicker.setDefaults({ "closeText": "Close", "currentText": "Today", "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], "monthNamesShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "nextText": "Next", "prevText": "Previous", "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"], "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"], "dateFormat": "MM d, yy", "firstDay": 1, "isRTL": false }); });
+		</script>
+	<script type="text/javascript"
+		src="js/hustle-ui.min.js"
+		id="hui_scripts-js"></script>
+	<script type="text/javascript"
+		src="js/underscore.min.js"
+		id="underscore-js"></script>
+
+	<script type="text/javascript"
+		src="js/front.min.js"
+		id="hustle_front-js"></script>
+	<script type="text/javascript"
+		src="js/wp-embed.min.js"
+		id="wp-embed-js"></script>
+
+	<script type="text/javascript"
+		src="js/sbi-scripts.min.js"
+		id="sb_instagram_scripts-js"></script>
+</body>
+
+</html>
