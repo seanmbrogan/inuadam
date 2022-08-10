@@ -9,9 +9,9 @@
 		rel="stylesheet">
 	<link href="css/css_2.css"
 		rel="stylesheet">
-
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
 	<meta property="og:url"
-		content="https://www.inesadam.com">
+		content="https://inesadam.com">
 	<meta property="og:title"
 		content="Inés Adam">
 	<meta property="og:description"
